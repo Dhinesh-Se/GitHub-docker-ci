@@ -1,9 +1,9 @@
 # githum actions workflow for building and pushing a docker image to docker hub
-name: Build and Push Docker Images
+name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
