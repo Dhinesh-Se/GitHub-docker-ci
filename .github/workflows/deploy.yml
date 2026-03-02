@@ -1,5 +1,5 @@
 # githum actions workflow for building and pushing a docker image to docker hub
-name: Build and Push Docker Image
+name: Build and Push Docker Images
 on:
   push:
     branches:
